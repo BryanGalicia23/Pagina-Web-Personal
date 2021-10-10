@@ -1,13 +1,118 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+#fondo {
+  background-color: rgb(228, 228, 228);
+}
+
+.cabecera {
+  display: grid;
+  grid-template-columns: 3fr auto;
+}
+
+.cabecera button {
+  width: min-content;
+  height: min-content;
+  margin-left: auto;
+}
+
+.cabecera div {
+  text-align: center;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navegador {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.home {
+  text-align: center;
+  padding-top: 1.5rem;
+  height: 100vh;
+}
+
+.home p,
+h3 {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.home img {
+  width: 350px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.proyectos {
+  text-align: center;
+  gap: 20px;
+  padding: 1rem;
+}
+
+/* CSS Carrito de Compras */
+
+.box {
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 0 0 1rem #00000025 inset;
+}
+
+.grid-responsive {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+}
+
+/* Fin CSS Carrito de Compras */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.button-contact {
+  background-color: rgb(255, 51, 61);
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 1rem;
+}
+
+.button-contact:hover {
+  background-color: rgb(48, 157, 207);
+}
+
+hr {
+  margin: 1rem auto;
+}
+
+@media screen and (min-width: 1000px) {
+  .grid-1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 0.5rem;
+  }
+
+  .grid-1-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: start;
+    gap: 0.5rem;
+  }
 }

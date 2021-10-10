@@ -1,0 +1,33 @@
+.container-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 1fr;
+  gap: 1rem;
+}
+
+.card-proyect {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  background-color: rgb(212, 208, 208);
+  border: thin solid gray;
+  display: grid;
+  grid-template-rows: 50%, auto, auto;
+  cursor: pointer;
+}
+
+.card-proyect h5 {
+  align-items: center;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+
+.card-proyect:hover {
+  background-color: rgb(75, 69, 69);
+  color: white;
+}
+
+.cv {
+  text-decoration: none;
+  color: black;
+}

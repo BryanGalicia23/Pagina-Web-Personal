@@ -1,0 +1,39 @@
+/* CSS Crazy Button */
+
+.mi-crush {
+  display: flex;
+}
+
+.mi-crush h4 {
+  margin: auto;
+  margin-top: 3.5rem;
+}
+
+.answer {
+  position: absolute;
+  top: 70%;
+  transform: translateY(-50%);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+#si {
+  background-color: #00b33c;
+  left: 20%;
+  transform: translateY(-50%) translateX(-20%);
+  color: #dedede;
+}
+
+#si:hover {
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  width: 7rem;
+  height: 5rem;
+}
+
+#no {
+  background-color: #ff1a1a;
+  color: #dedede;
+}
+
+/* Fin CSS Crazy Button */
