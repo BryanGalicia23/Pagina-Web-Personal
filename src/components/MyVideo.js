@@ -3,9 +3,9 @@ const MyVideo = () => {
     <div>
       <h2>My video</h2>
       <iframe
-        width="540"
-        height="330"
-        src="https://www.youtube.com/embed/hcIHCTrj67Y"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/WUNNtKorr5k"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

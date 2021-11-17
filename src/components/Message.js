@@ -8,6 +8,7 @@ const Message = ({ msg, bgColor }) => {
     color: "#fff",
     fontWeight: "bold",
     fontSize: "1.3rem",
+    borderRadius: "1rem",
     backgroundColor: bgColor,
   };
 

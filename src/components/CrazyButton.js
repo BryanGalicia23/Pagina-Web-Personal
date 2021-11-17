@@ -28,8 +28,9 @@ const CrazyButton = () => {
 
   return (
     <div>
-      <h3>Siéntete libre de escoger</h3>
-      <h3>tu respuesta</h3>
+      <h2>My Crush</h2>
+      <h5>Siéntete libre de escoger</h5>
+      <h5>tu respuesta</h5>
       {pregunta ? (
         <section className="mi-crush">
           <h4>¿Quieres ser mi novia?</h4>

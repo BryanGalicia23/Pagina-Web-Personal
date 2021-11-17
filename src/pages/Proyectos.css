@@ -1,29 +1,32 @@
 .container-projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 295px));
   grid-template-rows: 1fr;
+  justify-content: center;
   gap: 1rem;
 }
 
 .card-proyect {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-between; */
-  background-color: rgb(212, 208, 208);
-  border: thin solid gray;
-  display: grid;
-  grid-template-rows: 50%, auto, auto;
+  background-color: #a7ddee;
+  border: thin solid rgb(128, 128, 128);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
   cursor: pointer;
 }
 
-.card-proyect h5 {
+.card-proyect h5,
+p {
   align-items: center;
+  padding-top: 0.5rem;
   padding-left: 0.3rem;
   padding-right: 0.3rem;
 }
 
 .card-proyect:hover {
-  background-color: rgb(75, 69, 69);
+  background-color: rgb(41, 38, 95);
   color: white;
 }
 

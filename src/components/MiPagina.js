@@ -4,21 +4,30 @@ import Error404 from "../pages/Error404";
 import Home from "../pages/Home";
 import Proyectos from "../pages/Proyectos";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import img from "../logo.svg";
+import mylogo from "../assets/bry-logo.png";
 import Habilidades from "../pages/Habilidades";
 
 const MiPagina = () => {
   return (
     <HashRouter>
-      <div className="navegador">
-        <Navbar bg="dark" variant={"dark"} expand="lg">
+      <div>
+        <Navbar
+          className="navegador fw-bold fs-5"
+          bg="dark"
+          variant={"dark"}
+          expand="lg"
+        >
           <Container fluid>
             <Navbar.Brand href="#">
               {
                 <img
-                  style={{ width: "50px", height: "50px" }}
-                  src={img}
-                  alt="react"
+                  style={{
+                    width: "50px",
+                    height: "45px",
+                  }}
+                  /* src={img} */
+                  src={mylogo}
+                  alt="bry-icon"
                 />
               }
             </Navbar.Brand>

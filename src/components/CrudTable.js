@@ -14,7 +14,7 @@ const CrudTable = ({ data, setDataToEdit, deleteData }) => {
           </tr>
         </head>
         <tbody>
-          {data.lengh === 0 ? (
+          {data.length === 0 ? (
             <tr>
               <td colSpan="3">Sin datos</td>
             </tr>
