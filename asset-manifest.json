@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Pagina-Web-Personal/static/css/main.3c500c89.chunk.css",
-    "main.js": "/Pagina-Web-Personal/static/js/main.6f47af2a.chunk.js",
-    "main.js.map": "/Pagina-Web-Personal/static/js/main.6f47af2a.chunk.js.map",
+    "main.css": "/Pagina-Web-Personal/static/css/main.a4b03127.chunk.css",
+    "main.js": "/Pagina-Web-Personal/static/js/main.d1e47113.chunk.js",
+    "main.js.map": "/Pagina-Web-Personal/static/js/main.d1e47113.chunk.js.map",
     "runtime-main.js": "/Pagina-Web-Personal/static/js/runtime-main.744e2b9c.js",
     "runtime-main.js.map": "/Pagina-Web-Personal/static/js/runtime-main.744e2b9c.js.map",
     "static/css/2.c1256375.chunk.css": "/Pagina-Web-Personal/static/css/2.c1256375.chunk.css",
@@ -12,20 +12,20 @@
     "static/js/3.0a13ebaa.chunk.js.map": "/Pagina-Web-Personal/static/js/3.0a13ebaa.chunk.js.map",
     "index.html": "/Pagina-Web-Personal/index.html",
     "static/css/2.c1256375.chunk.css.map": "/Pagina-Web-Personal/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.3c500c89.chunk.css.map": "/Pagina-Web-Personal/static/css/main.3c500c89.chunk.css.map",
+    "static/css/main.a4b03127.chunk.css.map": "/Pagina-Web-Personal/static/css/main.a4b03127.chunk.css.map",
     "static/js/2.572729e5.chunk.js.LICENSE.txt": "/Pagina-Web-Personal/static/js/2.572729e5.chunk.js.LICENSE.txt",
     "static/media/BryanG.18bab475.jpg": "/Pagina-Web-Personal/static/media/BryanG.18bab475.jpg",
-    "static/media/BryanGalicia.5804c95f.pdf": "/Pagina-Web-Personal/static/media/BryanGalicia.5804c95f.pdf",
+    "static/media/BryanGaliciaCV.f778aaad.pdf": "/Pagina-Web-Personal/static/media/BryanGaliciaCV.f778aaad.pdf",
     "static/media/bootstrap.fc9ab632.png": "/Pagina-Web-Personal/static/media/bootstrap.fc9ab632.png",
     "static/media/bry-logo.c866f70c.png": "/Pagina-Web-Personal/static/media/bry-logo.c866f70c.png",
     "static/media/css.80778658.png": "/Pagina-Web-Personal/static/media/css.80778658.png",
-    "static/media/logobry.65c9472f.png": "/Pagina-Web-Personal/static/media/logobry.65c9472f.png"
+    "static/media/logobry1.2041f413.png": "/Pagina-Web-Personal/static/media/logobry1.2041f413.png"
   },
   "entrypoints": [
     "static/js/runtime-main.744e2b9c.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.572729e5.chunk.js",
-    "static/css/main.3c500c89.chunk.css",
-    "static/js/main.6f47af2a.chunk.js"
+    "static/css/main.a4b03127.chunk.css",
+    "static/js/main.d1e47113.chunk.js"
   ]
 }
