@@ -1,5 +1,5 @@
 import img from "../assets/BryanG.jpg";
-import mylogo from "../assets/logobry.png";
+import mylogo from "../assets/logobry1.png";
 import facebookIcon from "../assets/facebook-icon.png";
 import linkedinIcon from "../assets/linkedin-icon.png";
 import githubIcon from "../assets/github-icon.png";
@@ -8,6 +8,7 @@ import { useModal } from "../hooks/useModal";
 import ContactForm from "../components/ContactForm";
 import CarruselCursos from "../components/CarruselCursos";
 import TecnologiasImages from "../components/TecnologiasImages";
+import Hobbies from "../components/Hobbies";
 
 const Home = () => {
   const [isOpenModalContact, openModalContact, closeModalContact] =
@@ -52,33 +53,51 @@ const Home = () => {
             <img className="social_media" src={githubIcon} alt="github" />
           </a>
         </div>
-        <br />
         <h6>
           Este sitio web está hecho con mucho cariño para ti con ayuda de
-          JavaScript, React JS, HTML y CSS principalmente.
+          JavaScript, React JS, HTML y CSS principalmente. Ánimate a visitar la
+          sección de{" "}
+          <mark>
+            <em>Proyectos</em>
+          </mark>{" "}
+          y mis{" "}
+          <mark>
+            <em>Habilidades.</em>
+          </mark>
         </h6>
         <h6>
           Soy un desarrollador principiante con muchas ganas de crecer y seguir
-          aprendiendo
+          aprendiendo del mundo de la tecnología.
         </h6>
         <Modal isOpen={isOpenModalContact} closeModal={closeModalContact}>
           <ContactForm />
         </Modal>
       </div>
       <div className="element-2">
-        <h4>Mis mejores profesores y cursos 100% recomendados</h4>
+        <h4>Mis principales fuentes de conocimiento</h4>
         <hr />
         <CarruselCursos />
         <br />
+        <h4>¿Cómo puedo ayudarte?</h4>
         <h6>
-          Aquí te dejo algunos cursos y profesionales, cracks de la programación
-          que me enseñaron a programar y podrían enseñarte a ti también
+          Durante esta pandemia, he adquirido el maravilloso hábito de aprender
+          cosas nuevas todos los días, por lo que decidí adentrarme en el
+          excitante mundo de la programación y la tecnología.
+        </h6>
+        <h6>
+          El conocimiento sin duda es muy satisfactorio y emocionante, sin
+          embargo, deseo poder aplicar mis conocimientos aprendidos al mundo
+          real, con empresas y personas que desean mejorar la calidad de vida de
+          la gente con ideas innovadoras.
         </h6>
       </div>
       <div className="element-3">
         <h4>Herramientas y tecnologías</h4>
         <hr />
         <TecnologiasImages />
+        <h4>Hobbies</h4>
+        <hr />
+        <Hobbies />
       </div>
     </div>
   );

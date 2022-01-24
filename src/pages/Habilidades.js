@@ -3,7 +3,6 @@ import Modal from "../components/Modal.js";
 import { useModal } from "../hooks/useModal";
 import ContactForm from "../components/ContactForm";
 import MyVideo from "../components/MyVideo.js";
-import Pdf from "../docs/BryanGalicia.pdf";
 
 const Habilidades = () => {
   const [isOpenModalContact, openModalContact, closeModalContact] =
@@ -38,7 +37,12 @@ const Habilidades = () => {
               English
             </p>
           </div>
-          <a className="cv" href={Pdf} target="_blank" rel="noreferrer">
+          <a
+            className="cv"
+            href="https://drive.google.com/file/d/1YH6JSK937eokkcD1sTKZfXDZ81gFCeov/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div className="card-proyect">
               <img
                 src="https://redelaldia.org/wp-content/uploads/2021/03/curriculum-animado.png"

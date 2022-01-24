@@ -38,13 +38,13 @@ const MiPagina = () => {
                 style={{ maxHeight: "100px" }}
                 navbarScroll
               >
-                <Nav.Link as={Link} to="/">
+                <Nav.Link className="navbar-bryan" as={Link} to="/">
                   Inicio
                 </Nav.Link>
-                <Nav.Link as={Link} to="/proyectos">
+                <Nav.Link className="navbar-bryan" as={Link} to="/proyectos">
                   Proyectos
                 </Nav.Link>
-                <Nav.Link as={Link} to="/habilidades">
+                <Nav.Link className="navbar-bryan" as={Link} to="/habilidades">
                   Habilidades
                 </Nav.Link>
               </Nav>

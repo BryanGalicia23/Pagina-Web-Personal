@@ -53,11 +53,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* .navegador {
-  background-color: rgb(102, 22, 22);
-  font-weight: bold;
-  font-size: 1.2rem;
-} */
+.navbar-bryan:hover {
+  border: 2px solid white;
+  border-radius: 8px;
+}
 
 .home {
   display: flex;
@@ -173,7 +172,7 @@ body {
 
 .grid-responsive {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 1rem;
 }
 

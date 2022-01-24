@@ -56,11 +56,9 @@ const ShoppingCart = () => {
       <h3>Carrito</h3>
       <article className="box">
         {cart.length >= 1 && (
-          <div>
+          <div style={{ display: "flex", justifyContent: "space-evenly" }}>
             <button
               style={{
-                position: "absolute",
-                right: "10%",
                 backgroundColor: "#ff3300",
                 color: "white",
               }}

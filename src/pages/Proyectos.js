@@ -24,17 +24,83 @@ const Proyectos = () => {
         <div className="cabecera">
           <div>
             <h3>Mis proyectos</h3>
-            <h5>Estos son algunos de los proyectos que he realizado</h5>
+            <h5>
+              Aquí puedes ver algunos de los proyectos que he realizado,
+              siéntete libre de descargarlos o analizarlos desde mi cuentas de
+              <a
+                style={{ textDecoration: "none" }}
+                href="https://github.com/BryanGalicia23"
+              >
+                {" "}
+                GitHub.
+              </a>
+            </h5>
           </div>
           <button className="button-contact" onClick={openModalContact}>
             Contáctame
           </button>
         </div>
         <div className="container-projects">
+          <a
+            className="cv"
+            href="https://bryangalicia23.github.io/punky-doggy-ecommerce/#/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="card-proyect">
+              <img
+                src="https://cdn.shopify.com/s/files/1/0185/9786/products/Camilla_Mini_Schnauser_S_400x400_crop_center_04aaf923-42af-4cf3-b72f-5205da2d9dcf_400x400.jpg?v=1629925113"
+                alt="ecommerce perrito"
+              />
+              <h5>Pets e-Commerce</h5>
+              <p>
+                E-Commerce para mascotas, usando los Hooks y distintas
+                funcionalidades de React JS, implementando Firebase y la API de
+                Stripe.
+              </p>
+            </div>
+          </a>
+          <a
+            className="cv"
+            href="https://bryangalicia23.github.io/algoritmo-cifrado-AES/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="card-proyect">
+              <img
+                src="https://envieta.com/wp-content/uploads/2018/07/locked-network-icon-400x400.gif"
+                alt="cryptography"
+              />
+              <h5>App de cifrado AES</h5>
+              <p>
+                Una vez eligiendo una llave con ciertas características de
+                seguridad, podrás cifrar y descifrar textos o archivos
+                utilizando su complejo algoritmo AES.
+              </p>
+            </div>
+          </a>
+          <a
+            className="cv"
+            href="https://bryangalicia23.github.io/juego_2d/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className="card-proyect">
+              <img
+                src="https://www.bibguru.com/es/guides/img/cita-apa-videojuego-online-400x400.png"
+                alt="curriculum vitae"
+              />
+              <h5>Descarga mi CV</h5>
+              <p>
+                En mi CV puedes observar algunas otras habilidades en mí que te
+                puedan agradar y aporten valor a lo que estás buscando.
+              </p>
+            </div>
+          </a>
           <div className="card-proyect" onClick={openModalCart}>
             <img
-              src="https://ibo.pe/blog/wp-content/uploads/2021/05/Ecommerce-portada-400x400.png"
-              alt="venta"
+              src="https://static.vecteezy.com/system/resources/thumbnails/004/476/678/small_2x/cart-shopping-with-set-icons-vector.jpg"
+              alt="carrito de compras"
             />
             <h5>Carrito de Compras</h5>
             <p>

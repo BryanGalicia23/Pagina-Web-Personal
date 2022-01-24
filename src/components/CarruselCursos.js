@@ -7,7 +7,7 @@ const CarruselCursos = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://i.ytimg.com/vi/wAis4BSEGpU/maxresdefault.jpg"
+            src="https://www.dementes.mx/wp-content/uploads/2020/09/Sysmiami-blog-platzi-plataforma-del-momento-.png"
             alt="First slide"
           />
           <Carousel.Caption></Carousel.Caption>
@@ -15,7 +15,7 @@ const CarruselCursos = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://goallearn.com/wp-content/uploads/2020/11/codecademy-1.jpg"
+            src="https://i.ytimg.com/vi/wAis4BSEGpU/maxresdefault.jpg"
             alt="Second slide"
           />
           <Carousel.Caption></Carousel.Caption>
@@ -23,8 +23,16 @@ const CarruselCursos = () => {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://lh3.googleusercontent.com/VF8mioxK4ITX1WKrpan5unhmRjW3la-saLRZdOhot0Fx-p3R4Y5GHnKP5qEHtolpLwo"
+            src="https://goallearn.com/wp-content/uploads/2020/11/codecademy-1.jpg"
             alt="Third slide"
+          />
+          <Carousel.Caption></Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src="https://lh3.googleusercontent.com/VF8mioxK4ITX1WKrpan5unhmRjW3la-saLRZdOhot0Fx-p3R4Y5GHnKP5qEHtolpLwo"
+            alt="Fourth slide"
           />
           <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
