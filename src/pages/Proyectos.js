@@ -81,7 +81,7 @@ const Proyectos = () => {
           </a>
           <a
             className="cv"
-            href="https://bryangalicia23.github.io/juego_2d/"
+            href="https://bryangalicia23.github.io/utilidades-vanilla-javascript/"
             target="_blank"
             rel="noreferrer"
           >
@@ -90,10 +90,11 @@ const Proyectos = () => {
                 src="https://www.bibguru.com/es/guides/img/cita-apa-videojuego-online-400x400.png"
                 alt="curriculum vitae"
               />
-              <h5>Descarga mi CV</h5>
+              <h5>Vanilla Javascript</h5>
               <p>
-                En mi CV puedes observar algunas otras habilidades en mí que te
-                puedan agradar y aporten valor a lo que estás buscando.
+                Sitio de aplicaciones web, únicamente con Vanilla Javascript,
+                CSS3 y HTML5, sin ningún tipo de Framework, con componentes
+                útiles y divertidos.
               </p>
             </div>
           </a>
@@ -105,7 +106,8 @@ const Proyectos = () => {
             <h5>Carrito de Compras</h5>
             <p>
               Puedes agregar tus productos favoritos, con la ayuda de los hooks
-              reducers y otras funcionalidades de React JS
+              reducers y otras funcionalidades de este componente hecho en React
+              JS
             </p>
           </div>
           <div className="card-proyect" onClick={openModalCrud}>

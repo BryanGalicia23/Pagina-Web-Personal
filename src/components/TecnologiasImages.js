@@ -29,7 +29,7 @@ const TecnologiasImages = () => {
         alt="java"
       />
       <img
-        src="https://e7.pngegg.com/pngimages/106/664/png-clipart-linux-linux-thumbnail.png"
+        src="http://assets.stickpng.com/images/58480e82cef1014c0b5e4927.png"
         alt="linux"
       />
     </div>

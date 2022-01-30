@@ -12,16 +12,8 @@ const Hobbies = () => {
         alt="control"
       />
       <img
-        src="https://e7.pngegg.com/pngimages/189/136/png-clipart-sphere-font-basketball-balon-orange-sphere-thumbnail.png"
-        alt="balon de basquet"
-      />
-      <img
         src="https://i.pinimg.com/originals/6c/72/47/6c7247dfb67e18add93d682dc9fdabcc.png"
         alt="esfera del dragon"
-      />
-      <img
-        src="https://toppng.com/uploads/preview/uitarra-png-dibujo-dibujos-de-guitarras-a-color-11563152263jmm5felf8j.png"
-        alt="guitarra"
       />
     </div>
   );
